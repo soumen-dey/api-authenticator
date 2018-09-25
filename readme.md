@@ -5,7 +5,7 @@
 [![Build Status][ico-travis]][link-travis]
 [![StyleCI][ico-styleci]][link-styleci]
 
-A Laravel package for API Authentication with Passport.
+A Laravel package for API Authentication based on Laravel Passport.
 
 ##### **Note**: This package requires  Laravel Passport to be installed.  
 
