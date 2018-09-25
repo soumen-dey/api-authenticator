@@ -1,0 +1,37 @@
+{
+    "name": "soumen-dey/api-authenticator",
+    "description": "A Laravel auth package for API authentication.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Soumen Dey",
+            "email": "soumendeyemail@gmail.com",
+            "homepage": "soumendey.com"
+        }
+    ],
+    "homepage": "https://github.com/soumen-dey/api-authenticator",
+    "keywords": ["Laravel", "Authenticator", "Auth", "API"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Soumen\\Authenticator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Soumen\\Authenticator\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Soumen\\Authenticator\\AuthenticatorServiceProvider"
+            ],
+            "aliases": {
+                "Authenticator": "Soumen\\Authenticator\\Facades\\Authenticator"
+            }
+        }
+    }
+}
