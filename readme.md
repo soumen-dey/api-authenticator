@@ -42,6 +42,13 @@ POST api/register
 POST api/login
 ```
 
+Note: Make sure that your request has these headers:
+
+``` bash
+Content-Type: application/json
+X-Requested-With: XMLHttpRequest
+```
+
 These are the API endpoints for authenticating users. The payload for these endpoints  should be same as for the web auth, any extra payload depends on the application's logic.
 
 ## Change log
